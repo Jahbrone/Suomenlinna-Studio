@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Suomenlinnanstudio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="layout">
+      <div class="main-content">
+        <!-- Hero Section -->
+        <section class="hero">
+          <h1>Suomenlinna Studio</h1>
+          <!-- Hamburger Button -->
+          <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <!-- Navigation -->
+          <nav class="nav-menu" id="nav-menu">
+            <ul>
+              <li><a href="#" data-card="services">Services</a></li>
+              <span class="separator">|</span>
+              <li class="has-submenu">
+                <a href="#" data-card="staff"
+                  >Staff </a
+                >
+                <ul class="sub-menu" id="staff-submenu">
+                  <li><a href="#" data-card="staff1">Tapio</a></li>
+                  <li><a href="#" data-card="staff2">Tommi</a></li>
+                  <li><a href="#" data-card="staff3">Mauri</a></li>
+                </ul>
+              </li>
+              <span class="separator">|</span>
+              <li><a href="#" data-card="rooms">Rooms</a></li>
+              <span class="separator">|</span>
+              <li><a href="#" data-card="contact">Contact</a></li>
+            </ul>
+          </nav>
+        </section>
+
+        <section class="logo">
+          <img
+            src="img/suomenlinnan-studio-logo.png"
+            alt="Suomenlinnanstudio Logo"
+          />
+        </section>
+      </div>
+      <footer class="footer">
+        <p class="footer-email">
+          Suomenlinna Studio &nbsp;|&nbsp; +358 44 588 9109 &nbsp;|&nbsp;
+          <a href="mailto:info@suomenlinnanstudio.fi"
+            >info@suomenlinnanstudio.fi</a
+          >
+        </p>
+        <p class="footer-socials-address">
+          <span class="footer-socials">
+            <a
+              href="https://www.facebook.com"
+              target="_blank"
+              aria-label="Facebook"
+            >
+              <img src="/img/socials/facebook.svg" alt="Facebook" />
+            </a>
+            <a
+              href="https://www.instagram.com"
+              target="_blank"
+              aria-label="Instagram"
+            >
+              <img src="/img/socials/instagram.svg" alt="Instagram" />
+            </a>
+          </span>
+          &nbsp;|&nbsp; Suomenlinna C 1, 00190 Helsinki
+        </p>
+      </footer>
+    </div>
+    <!-- Staff Grid Card -->
+    <div class="card-overlay" id="staff">
+      <div class="card staff-grid">
+        <button class="close">&times;</button>
+        <h2>Our Staff</h2>
+        <div class="grid">
+          <div class="staff-thumb" data-profile="staff1">
+            <img src="img/staff/tapio.jpg" alt="Staff 1" />
+            <p>Tapio</p>
+          </div>
+          <div class="staff-thumb" data-profile="staff2">
+            <img src="img/staff/tommi.jpg" alt="Staff 2" />
+            <p>Tommi</p>
+          </div>
+          <div class="staff-thumb" data-profile="staff3">
+            <img src="img/staff/mauri.jpg" alt="Staff 3" />
+            <p>Mauri</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Individual Staff Profiles -->
+    <div class="card-overlay profile" id="staff1">
+      <div class="card">
+        <button class="close">&times;</button>
+        <img src="img/staff/tapio.jpg" alt="Tapio" class="profile-pic" />
+        <h3>Tapio Tamminen</h3>
+        <p class="role">Head of the Studio</p>
+        <div class="socials">
+          <div class="social-icons">
+            <a href="#" target="_blank" aria-label="Facebook">
+              <img
+                src="/img/socials/facebook.svg"
+                alt="Facebook"
+                width="32"
+                height="32"
+              />
+            </a>
+            <a href="#" target="_blank" aria-label="Spotify">
+              <img
+                src="/img/socials/spotify.svg"
+                alt="Spotify"
+                width="32"
+                height="32"
+              />
+            </a>
+          </div>
+          <div class="contact-text">
+            <span>+358 123 456 789</span>
+            <span class="separator">|</span>
+            <span
+              ><a href="mailto:tapio@suomenlinnanstudio.com"
+                >tapio@suomenlinnanstudio.com</a
+              ></span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-overlay profile" id="staff2">
+      <div class="card">
+        <button class="close">&times;</button>
+        <img src="/img/staff/tommi.jpg" alt="Tommi" class="profile-pic" />
+        <h3>Tommi Tikkanen</h3>
+        <p class="role">
+          Producer / Composer / Mastering / Recording & Mixing Engineer
+        </p>
+        <p class="blurb">
+          Whether it's hard-hitting Jamaican riddims, cutting edge contemporary
+          pop, big live band arrangements or film scores, producer Bommitommi is
+          working hard in the studio, writing and producing songs for Finnish
+          and Jamaican stars. With numerous multi-platinum records and "Producer
+          of the Year" nominations to his name in Finland, his goal remains the
+          same – sculpt yet another great song to sit on top of a big Riddim
+          track. Tommi is always looking for new Talent so email your demos!
+          <br />
+          — <br />
+          ALMA. Tippa T. Avatar (SWE). Sylvia Massy (US). Paula Temple (UK).
+          Reino Nordin. The National (US). JVG. LEO. Raappana. KUUMAA.
+          Kalifornia-Keke. Robin Packalen. Mavi Phoenix (AUS). Aleksanteri
+          Hakaniemi. Paperi T. Yeboyah. Pyhimys. Jukka Poika. Sofia Zida. Sini
+          Yasemin. Yona. F. Ryan D'Herde (US). Kalle Kinos. Aste. Lord Est.
+          Cocoa Tea (JAM). Walshy Fire (Major Lazer, US). Jesse Royal (JAM).
+          Kesken. Bunji Garlin (JAM). Detalji. Elias Gould. Jesse. Tommishock.
+          Mashi. costee. Ruger Hauer. Nicole Willis. DJ Polarsoul. Hadal Sherpa.
+          Saurus. Olavi Uusivirta. Ona Kamu. Randy Barracuda. ​​Odeons. Asa.
+          Laulurastas. Femme en Fourrure. Adikia. djrubio. Perttu. Lxandra.
+          Ghost. Stargate. MEGA-Ertsi. KXP. Stein (JAM). Common Kings (US).
+          Pijall. Death Hawks. Brymir. Nuclear Omnicide. Stormic. Lailai.
+          Aurora. St. Petersburg Spectacular. Trevor Deep Jr.
+        </p>
+        <div class="socials">
+          <div class="social-icons">
+            <a href="#" target="_blank" aria-label="Facebook">
+              <img
+                src="/img/socials/facebook.svg"
+                alt="Facebook"
+                width="32"
+                height="32"
+              />
+            </a>
+            <a href="#" target="_blank" aria-label="Spotify">
+              <img
+                src="/img/socials/spotify.svg"
+                alt="Spotify"
+                width="32"
+                height="32"
+              />
+            </a>
+          </div>
+          <div class="contact-text">
+            <span>+358 987 654 321</span>
+            <span class="separator">|</span>
+            <span
+              ><a href="mailto:tommi@suomenlinnanstudio.com"
+                >tommi@suomenlinnanstudio.com</a
+              ></span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-overlay profile" id="staff3">
+      <div class="card">
+        <button class="close">&times;</button>
+        <img src="img/staff/mauri.jpg" alt="Mauri" class="profile-pic" />
+        <h3>Mauri Syrjälä</h3>
+        <p class="role">Producer / Mixing & Mastering engineer</p>
+        <p class="blurb">
+          Mauri is a producer with an all-around sense of aesthetics in diverse
+          styles. His experience ranges from writing and producing for pop
+          artists to recording indie rock, mixing electronica and mastering
+          everything between heavy metal and techno. In 2018, he won the
+          prestigious "Sound of the Year" award by Finnish Recording Engineer's
+          and Producer's Association Aux ry for his work on Yona's album "7"..
+        </p>
+        <div class="socials">
+          <div class="social-icons">
+            <a href="#" target="_blank" aria-label="Facebook">
+              <img
+                src="/img/socials/facebook.svg"
+                alt="Facebook"
+                width="32"
+                height="32"
+              />
+            </a>
+            <a href="#" target="_blank" aria-label="Spotify">
+              <img
+                src="/img/socials/spotify.svg"
+                alt="Spotify"
+                width="32"
+                height="32"
+              />
+            </a>
+          </div>
+          <div class="contact-text">
+            <span>+358 555 123 456</span>
+            <span class="separator">|</span>
+            <span
+              ><a href="mailto:mauri@suomenlinnanstudio.com"
+                >mauri@suomenlinnanstudio.com</a
+              ></span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services Card -->
+    <div class="card-overlay" id="services">
+      <div class="card">
+        <button class="close">&times;</button>
+        <h2>Services</h2>
+        <p>Information about recording, mixing, mastering, etc.</p>
+      </div>
+    </div>
+
+    <!-- Contact Card -->
+    <div class="card-overlay" id="contact">
+      <div class="card">
+        <button class="close">&times;</button>
+        <h2>Contact</h2>
+        <form class="contact-form">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" />
+
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your email"
+          />
+
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Your message"
+          ></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
