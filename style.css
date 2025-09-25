@@ -136,11 +136,8 @@ body::before {
   gap: 0.5rem;
 }
 .nav-menu .sub-menu.active {
-  display: flex;          /* shown only when toggled */
+  display: flex; /* shown only when toggled */
 }
-
-
-
 
 /* ==========================
    Logo
@@ -375,6 +372,9 @@ body::before {
    Responsive Styles
 ========================== */
 @media (max-width: 768px) {
+  body {
+    min-height: 100vh;
+  }
   /*----- Stack logo and hero vertically------ */
   .main-content {
     display: grid;
@@ -407,9 +407,6 @@ body::before {
     font-size: 2rem;
     text-align: center;
   }
-  .hero {
-    margin-bottom: 5vh; /* distance from logo below */
-  }
   .hero nav ul {
     flex-direction: row;
     align-items: center;
@@ -418,6 +415,21 @@ body::before {
 
   .hero nav a {
     font-size: 0.4rem;
+  }
+
+  .contact-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-text .separator {
+    display: none;
+  }
+
+  .contact-text .phone,
+  .contact-text .email {
+    margin: 5px 0;
   }
 
   /* Logo adjustments */
@@ -448,8 +460,6 @@ body::before {
     flex-direction: column;
     align-items: center;
   }
-
-  
 
   .staff-thumb {
     margin-bottom: 1rem;
